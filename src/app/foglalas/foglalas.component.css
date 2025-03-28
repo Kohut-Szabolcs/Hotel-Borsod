@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(135deg, #ffffff, #0056b3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.back-arrow:hover {
+    text-decoration: underline;
+}
+
+.foglalas {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-arrow:hover {
+    background-color: #e2e6ea;
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.gomb_szoba {
+    display: block; /* Blokk elemként viselkedik */
+    float: left; /* Balra igazítás */
+    border: 2px solid #000; /* Keret: 2px vastag, folytonos, fekete */
+    padding: 10px 15px; /* Belső margó a kereten belül */
+    text-decoration: none; /* Aláhúzás eltávolítása */
+    color: #000; /* Szöveg színe */
+  }
+  
+  /* Opcionális: ha szeretnéd, hogy a keret ne zavarja a környező elemeket */
+  .gomb_szoba::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
