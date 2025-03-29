@@ -212,30 +212,28 @@ button:hover {
 }
 
 #about {
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(245, 245, 245, 0.95));
+    padding: 50px;
+    width: 70%;
     max-width: 800px;
-    margin: 50px auto;
-    padding: 30px;
     text-align: center;
-    background-color: #f9f9f9;
-    border: 3px solid transparent;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: border-color 0.5s ease, box-shadow 0.5s ease;
+    border: 5px solid #b3aca7; /* Alapértelmezett barna keret */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out; /* Animáció a keretváltásra */
 }
 
 #about:hover {
-    border-color: #007bff;
-    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+    border-color: #007BFF; /* Kék keret, ha az egér fölé kerül */
 }
 
 h2 {
+    color: #000000;
     font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
 }
 
 p {
+    color: #333;
     font-size: 1.2em;
-    color: #555;
-    line-height: 1.5;
+    line-height: 1.6;
 }

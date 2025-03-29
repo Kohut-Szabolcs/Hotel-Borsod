@@ -4,6 +4,7 @@ import { SzobakComponent } from './szobak/szobak.component';
 import { BejelentkezesComponent } from './bejelentkezes/bejelentkezes.component';
 import { RegisztracioComponent } from './regisztracio/regisztracio.component';
 import { FoglalasComponent } from './foglalas/foglalas.component';
+import { UjJelszoComponent } from './uj-jelszo/uj-jelszo.component';
 
 export const routes: Routes = [
     {path: "" ,component:FooldalComponent},
@@ -11,5 +12,6 @@ export const routes: Routes = [
     {path: "bejelentkezes" ,component:BejelentkezesComponent},
     {path: "regisztracio", component:RegisztracioComponent},
     {path: "foglalas", component:FoglalasComponent},
+    {path: "uj_jelszo", component:UjJelszoComponent},
 
 ];

@@ -88,18 +88,3 @@ input {
     text-decoration: underline;
 }
 
-.gomb_szoba {
-    display: block; /* Blokk elemként viselkedik */
-    float: left; /* Balra igazítás */
-    border: 2px solid #000; /* Keret: 2px vastag, folytonos, fekete */
-    padding: 10px 15px; /* Belső margó a kereten belül */
-    text-decoration: none; /* Aláhúzás eltávolítása */
-    color: #000; /* Szöveg színe */
-  }
-  
-  /* Opcionális: ha szeretnéd, hogy a keret ne zavarja a környező elemeket */
-  .gomb_szoba::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
