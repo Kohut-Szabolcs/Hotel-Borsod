@@ -1,59 +1,59 @@
-# Hotel
+as <div align="center">
+<img src="https://katolikuskeri.hu/Files/keri/keri_logo2.jpg"alt="KERI logó" width="350" ></div>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+Hotel Borsod
+SZENT ISTVÁN KATOLIKUS TECHNIKUM ÉS GIMNÁZIUM
 
-## Development server
+## Projekt címe: 
+Hotel Borsod
 
-To start a local development server, run:
+### Projekt csoport tagok: 
+Kohut Szabolcs, Balog Péter,Mudris Bence
 
-```bash
-ng serve
-```
+### Projekt leírása: 
+A projektünk célja, hogy A projektünk célja, hogy egy olyan webalkalmazást hozzunk létre, ahol a felhasználók regisztrálhatnak, bejelentkezhetnek és lefoglalhatják az általuk kiválasztott szobát. A felhasználók adatait tároljuk adatbázisban. A webalkalmazásban a felhasználók megtekinthetik a szolgáltatásainkat és a tevékenységeink listáját.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Rendszer követelmények:
+-Hardver követelmények:
+ -Minimális követelmények:
+-Processzor: Intel Core i3 (8. generáció) vagy AMD Ryzen 3
+-Memória:4 GB RAM
+-Tárhely: 500 MB szabad hely HDD/SSD
+-Ajánlott követelmények:
+-Processzor: Intel Core i5 (10. generáció) vagy AMD Ryzen 5
+-Memória: 8 GB RAM vagy több
+-Tárhely: 1 GB szabad hely SSD
+-Szoftver követelmények:
+-Operációs rendszer: Windows 10, 11
+-Adatbázis: MySQL, xampp
+-Node.js, Angular(legújabb verzió)
+Böngésző: Google Chrome, Mozilla Firefox, Microsoft Edge (legfrissebb verziók)
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
+### Fejlesztéshez hasznát szoftverek: 
+- Visual Studio Code version 1.98.2
+#### Frontend:
+- Angular 19
+- Node Modules version 10.9.2
+##### Backend:
+- Node 22.14.0
+- Express version 4.18.2
+#### Adatbázis:
+- MySQL version 3.13.0
+- XAMPP Control Panel version 3.3
+#### Logo:
+- design.com
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Üzembehelyezés:
+A "Hotel Borsod" webalkalmazás telepítése a következő lépéseket igényli:
+⦁	Töltse le a projekt fájljait a GitHub-ról a megadott tárolóból.
+⦁	Telepítse a szükséges függőségeket: 
+⦁	Node.js a szerver futtatásához.
+⦁	MySQL az adatbázis kezelésére.
+⦁	Konfigurálja az adatbázis-kapcsolatot: 
+⦁	Hozzon létre egy adatbázist a MySQL-ben, majd importálja a mellékelt SQL fájlt.
+⦁	Módosítsa a konfigurációs fájlt (pl. config.js) az adatbázis elérési adataival.
+⦁	Indítsa el a szervert az npm start paranccsal a projekt gyökérkönyvtárában.
+⦁	Nyissa meg a böngészőt, és navigáljon a http://localhost:4200 címre.
