@@ -1,0 +1,19 @@
+/* Add this to your CSS file (e.g., styles.css or regisztracio.component.css) */
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-150%); /* Start further above the viewport */
+      opacity: 0; /* Start invisible */
+    }
+    100% {
+      transform: translateY(0); /* End at its original position */
+      opacity: 1; /* End fully visible */
+    }
+  }
+  
+  .slide-down {
+    animation: slideDown 0.5s ease forwards; /* Animation duration and easing */
+  }
+.szoba{
+    background: linear-gradient(135deg, #ffffff, #0056b3);
+}

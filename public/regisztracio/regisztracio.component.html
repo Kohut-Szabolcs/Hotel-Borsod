@@ -1,0 +1,29 @@
+<section id="Regisztracio" class="login">
+    <body style="margin: 0; padding: 0; height: 130vh; display: flex; justify-content: center; align-items: center;" class="Regisztracio">
+        <div style="text-align: center; border: 2px solid #007BFF; padding: 20px; width: 300px; margin: 0 auto; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); background:linear-gradient(135deg, #ffffff, #0056b3);">
+            <h2 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; margin-top: 0; margin-bottom: 20px;">Regisztráció</h2>
+            <form  #registerform="ngForm" (ngSubmit)="register()" style="text-align: center;">
+
+            <label style="display: block; margin-bottom: 10px; color: #333;">Teljesnév</label>
+            <input type="text" name="TeljesNév" [(ngModel)]="userData.TeljesNev" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+
+            <label style="display: block; margin-bottom: 10px; color: #333;">E-mail</label>
+            <input type="text" name="Email" [(ngModel)]="userData.Email" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+
+            <label style="display: block; margin-bottom: 10px; color: #333;">Jelszó</label>
+            <input type="password" name="Jelszó" [(ngModel)]="userData.Jelszo" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+
+            <label style="display: block; margin-bottom: 10px; color: #333;">Telefonszám</label>
+            <input type="text" name="Telefonszám" [(ngModel)]="userData.Telefonszam" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+            
+            <label style="display: block; margin-bottom: 10px; color: #333;">Születési Dátum</label>
+            <input type="date" name="SzületésiDátum" [(ngModel)]="userData.SzuletesiDatum" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+
+            <label style="display: block; margin-bottom: 10px; color: #333;">Születési hely</label>
+            <input type="text" name="SzületésiHely" [(ngModel)]="userData.SzuletesiHely" required style="padding: 10px; width: 80%; border: none; border-radius: 5px; margin-bottom: 15px;">
+
+            <button style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #007BFF; color: #fff; cursor: pointer; transition: background-color 0.3s;">Regisztráció</button>
+            </form>
+        </div>
+        </body>
+    </section>
