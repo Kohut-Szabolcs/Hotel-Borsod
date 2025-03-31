@@ -1,0 +1,41 @@
+
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown 1s ease-out;
+  margin-top: 100px; 
+  color: #007bff;
+  
+}
+
+.szoba{
+    background: linear-gradient(135deg, #ffffff, #0056b3);
+}
+
+@keyframes slideLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.slide-left {
+  animation: slideLeft 1.5s ease-out;
+}
+
+.slide-left2{
+  animation: slideLeft 5s ease-out;
+}
